@@ -22,8 +22,27 @@
       display: block;
       pointer-events: none; /* makes click pass through to the <a> tag */
     }
+    a {
+      cursor: pointer;
+    }
+    a:hover::before {
+      content: attr(data-tooltip);
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+      white-space: nowrap;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
   </style>
   </head>
-<body><a href="BhaktikiSphoorti.svg" target="_blank"> <iframe src="ThyagarajaSwami.svg" alt="Description of the image" style="border:none;"></iframe></a>
+<body><a href="BhaktikiSphoorti.svg" target="_blank" data-tooltip="Click to explore / అన్వేషించడానికి క్లిక్ చేయండి"> <iframe src="ThyagarajaSwami.svg" alt="Description of the image" style="border:none;"></iframe></a>
 </body>
 </html>
