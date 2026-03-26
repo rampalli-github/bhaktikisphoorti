@@ -45,11 +45,17 @@
   </circle>
   
   <!-- Central Title -->
-  <text x="700" y="80" font-family="Georgia, serif" font-size="52" fill="url(#gold)" text-anchor="middle" font-weight="bold" filter="url(#glow)">
+  <text x="700" y="70" font-family="Georgia, serif" font-size="52" fill="url(#gold)" text-anchor="middle" font-weight="bold" filter="url(#glow)">
     Saint Thyagaraja
   </text>
-  <text x="700" y="115" font-family="Georgia, serif" font-size="22" fill="#daa520" text-anchor="middle" opacity="0.9">
+  <text x="700" y="120" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="45" fill="url(#gold)" text-anchor="middle" font-weight="bold" filter="url(#glow)" dominant-baseline="middle" line-height="80">
+    శ్రీ శ్రీ శ్రీ త్యాగరాజ స్వామి
+  </text>
+  <text x="700" y="200" font-family="Georgia, serif" font-size="22" fill="#daa520" text-anchor="middle" opacity="0.9">
     (1767-1847) | Composer of the Pancharatna Kritis
+  </text>
+  <text x="700" y="228" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="22" fill="#daa520" text-anchor="middle" opacity="0.9" dominant-baseline="middle">
+    (1767-1847) | పంచరత్న కృతుల రూపకర్త
   </text>
   
   <!-- Life Path Line -->
@@ -68,93 +74,100 @@
   <!-- Interactive Node 1: DEVOTION - Large Feature Node -->
   <g class="devotion-node" style="cursor:pointer">
     <!-- Outer glow circle -->
-    <circle cx="200" cy="250" r="85" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.3">
-      <animate attributeName="r" values="85;95;85" dur="3s" repeatCount="indefinite"/>
+    <circle cx="200" cy="250" r="105" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.3">
+      <animate attributeName="r" values="105;115;105" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite"/>
     </circle>
     
     <!-- Main circle -->
-    <circle cx="200" cy="250" r="70" fill="#4a2c6d" stroke="url(#gold)" stroke-width="4" filter="url(#glow)">
-      <animate attributeName="r" values="70;75;70" dur="2.5s" repeatCount="indefinite"/>
+    <circle cx="200" cy="250" r="90" fill="#4a2c6d" stroke="url(#gold)" stroke-width="4" filter="url(#glow)">
+      <animate attributeName="r" values="90;95;90" dur="2.5s" repeatCount="indefinite"/>
     </circle>
     
     <!-- Icon -->
-    <text x="200" y="240" font-family="Arial, sans-serif" font-size="40" fill="#ffd700" text-anchor="middle" filter="url(#textGlow)">🙏</text>
+    <text x="200" y="235" font-family="Arial, sans-serif" font-size="40" fill="#ffd700" text-anchor="middle" filter="url(#textGlow)">🙏</text>
     
     <!-- Title -->
-    <text x="200" y="275" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">DEVOTION</text>
-    <text x="200" y="295" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="14" fill="#daa520" text-anchor="middle" font-weight="bold">భక్తి</text>
+    <text x="200" y="270" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">DEVOTION</text>
+    <text x="200" y="290" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="14" fill="#daa520" text-anchor="middle" font-weight="bold">భక్తి</text>
     
     <!-- Hover instruction -->
-    <text x="200" y="350" font-family="Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
+    <text x="200" y="330" font-family="Arial, sans-serif" font-size="10" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
   </g>
   
   <!-- Interactive Node 2: Expression of Devotion -->
   <g class="expression-node" style="cursor:pointer">
-    <circle cx="500" cy="350" r="60" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="60;65;60" dur="2.5s" repeatCount="indefinite"/>
+    <circle cx="500" cy="350" r="80" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="80;85;80" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="500" y="340" font-family="Arial, sans-serif" font-size="32" fill="#ffd700" text-anchor="middle">🎶</text>
-    <text x="500" y="365" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Expression of</text>
-    <text x="500" y="380" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Devotion</text>
-    <text x="500" y="395" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">భక్తిని వ్యక్త పరచడం</text>
-    <text x="500" y="430" font-family="Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
+    <text x="500" y="330" font-family="Arial, sans-serif" font-size="32" fill="#ffd700" text-anchor="middle">🎶</text>
+    <text x="500" y="360" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Expression of</text>
+    <text x="500" y="375" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Devotion</text>
+    <text x="500" y="390" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">భక్తిని వ్యక్త పరచడం</text>
+    <text x="500" y="415" font-family="Arial, sans-serif" font-size="9" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
   </g>
   
   <!-- Interactive Node 3: Lord Rama / Tava Dasoham -->
   <g class="rama-node" style="cursor:pointer">
-    <circle cx="800" cy="450" r="55" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="55;60;55" dur="2.2s" repeatCount="indefinite"/>
+    <circle cx="800" cy="450" r="75" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="75;80;75" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <text x="800" y="445" font-family="Arial, sans-serif" font-size="30" fill="#ffd700" text-anchor="middle">🏹</text>
-    <text x="800" y="470" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Tava Dasoham</text>
-    <text x="800" y="485" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">తవ దాసోహం</text>
-    <text x="800" y="520" font-family="Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
+    <text x="800" y="430" font-family="Arial, sans-serif" font-size="30" fill="#ffd700" text-anchor="middle">🏹</text>
+    <text x="800" y="460" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Tava Dasoham</text>
+    <text x="800" y="475" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">తవ దాసోహం</text>
+    <text x="800" y="500" font-family="Arial, sans-serif" font-size="9" fill="#daa520" text-anchor="middle" opacity="0.8">Click to explore</text>
   </g>
   
   <!-- Interactive Node 4: Musical Legacy -->
   <g class="musical-legacy-node" style="cursor:pointer">
-    <circle cx="1150" cy="300" r="50" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="50;55;50" dur="2.8s" repeatCount="indefinite"/>
+    <circle cx="1150" cy="300" r="70" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="70;75;70" dur="2.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="1150" y="295" font-family="Arial, sans-serif" font-size="28" fill="#ffd700" text-anchor="middle">🎼</text>
-    <text x="1150" y="320" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Endaro</text>
-    <text x="1150" y="335" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Mahanubhavulu</text>
+    <text x="1150" y="280" font-family="Arial, sans-serif" font-size="28" fill="#ffd700" text-anchor="middle">🎼</text>
+    <text x="1150" y="310" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Endaro</text>
+    <text x="1150" y="325" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Mahanubhavulu</text>
+    <text x="1150" y="340" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">ఎందరో మహానుభావులు</text>
   </g>
   
   <!-- Interactive Node 5: Giripai Nelokonna -->
   <g class="giripai-node" style="cursor:pointer">
-    <circle cx="350" cy="600" r="52" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="52;57;52" dur="2.4s" repeatCount="indefinite"/>
+    <circle cx="350" cy="600" r="72" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="72;77;72" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="350" y="595" font-family="Arial, sans-serif" font-size="30" fill="#ffd700" text-anchor="middle">🎪</text>
-    <text x="350" y="620" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Giripai</text>
-    <text x="350" y="635" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Nelokonna</text>
+    <text x="350" y="580" font-family="Arial, sans-serif" font-size="30" fill="#ffd700" text-anchor="middle">🎪</text>
+    <text x="350" y="610" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Giripai</text>
+    <text x="350" y="625" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Nelokonna</text>
+    <text x="350" y="640" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">గిరిపై నెలకొన్న</text>
   </g>
   
   <!-- Interactive Node 6: Guruleka Etuvanti Guniki -->
   <g class="guruleka-node" style="cursor:pointer">
-    <circle cx="1000" cy="600" r="48" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="48;53;48" dur="2.6s" repeatCount="indefinite"/>
+    <circle cx="1000" cy="600" r="68" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="68;73;68" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="1000" y="595" font-family="Arial, sans-serif" font-size="26" fill="#ffd700" text-anchor="middle">📿</text>
-    <text x="1000" y="620" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Guruleka</text>
-    <text x="1000" y="635" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Etuvanti Guniki</text>
+    <text x="1000" y="580" font-family="Arial, sans-serif" font-size="26" fill="#ffd700" text-anchor="middle">📿</text>
+    <text x="1000" y="610" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Guruleka</text>
+    <text x="1000" y="625" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Etuvanti Guniki</text>
+    <text x="1000" y="640" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">గురులేక ఎటువంటి గుణికి</text>
   </g>
   
   <!-- Interactive Node 7: Tera teeyaka raada -->
   <g class="tera-teeyaka-node" style="cursor:pointer">
-    <circle cx="700" cy="650" r="50" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="r" values="50;55;50" dur="2.3s" repeatCount="indefinite"/>
+    <circle cx="700" cy="650" r="70" fill="#4a2c6d" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="r" values="70;75;70" dur="2.3s" repeatCount="indefinite"/>
     </circle>
-    <text x="700" y="645" font-family="Arial, sans-serif" font-size="28" fill="#ffd700" text-anchor="middle">⭐</text>
-    <text x="700" y="670" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Tera teeyaka</text>
-    <text x="700" y="685" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">raada</text>
+    <text x="700" y="630" font-family="Arial, sans-serif" font-size="28" fill="#ffd700" text-anchor="middle">⭐</text>
+    <text x="700" y="660" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Tera teeyaga</text>
+    <text x="700" y="675" font-family="Georgia, serif" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">raada</text>
+    <text x="700" y="690" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="11" fill="#daa520" text-anchor="middle" font-weight="bold">తెర తీయగ రాదా</text>
   </g>
   
   <!-- Bottom Info -->
-  <text x="700" y="830" font-family="Arial, sans-serif" font-size="14" fill="#daa520" text-anchor="middle" opacity="0.8">
+  <text x="700" y="820" font-family="Arial, sans-serif" font-size="14" fill="#daa520" text-anchor="middle" opacity="0.8">
     Click on any circle to explore videos and content about Saint Thyagaraja's life and music
+  </text>
+  <text x="700" y="845" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="14" fill="#daa520" text-anchor="middle" opacity="0.8">
+    శ్రీ శ్రీ శ్రీ త్యాగరాజ స్వామి జీవితం మరియు సంగీతం గురించిన వీడియోలను మరియు విషయవస్తువులను అన్వేషించడానికి ఏదైనా చక్రమును క్లిక్ చేయండి
   </text>
   
   <!-- Decorative border -->
@@ -308,7 +321,7 @@
     </text>
     
     <!-- YouTube Link Button -->
-    <a xlink:href="https://www.youtube.com/watch?v=VDrjbGPdA1g" target="_blank">
+    <a xlink:href="https://www.youtube.com/watch?v=VDrjbGPdA1g" target="_blank" style="pointer-events: auto;">
       <g style="cursor:pointer">
         <rect x="525" y="480" width="200" height="50" rx="25" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2" filter="url(#glow)">
           <animate attributeName="fill" values="#4a2c6d;#5a3c7d;#4a2c6d" dur="2s" repeatCount="indefinite"/>
@@ -320,8 +333,8 @@
     
     <!-- Close button -->
     <g id="close-btn-musical-legacy" style="cursor:pointer" pointer-events="all">
-      <circle cx="1110" cy="190" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
-      <text x="1110" y="198" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
+      <circle cx="1120" cy="165" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
+      <text x="1120" y="173" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
     </g>
   </g>
   
@@ -359,8 +372,8 @@
     
     <!-- Close button -->
     <g id="close-btn-giripai" style="cursor:pointer" pointer-events="auto">
-      <circle cx="1110" cy="190" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
-      <text x="1110" y="198" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
+      <circle cx="1120" cy="165" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
+      <text x="1120" y="173" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
     </g>
   </g>
   <g id="tera-teeyaka-panel" opacity="0" pointer-events="none">
@@ -371,7 +384,7 @@
     <rect x="250" y="150" width="900" height="600" rx="15" fill="#1a0d2e" stroke="url(#gold)" stroke-width="3" filter="url(#glow)"/>
     
     <!-- Title -->
-    <text x="700" y="200" font-family="Georgia, serif" font-size="24" fill="url(#gold)" text-anchor="middle" font-weight="bold">Tera teeyaka raada | తెర తీయక రాద</text>
+    <text x="700" y="200" font-family="Georgia, serif" font-size="24" fill="url(#gold)" text-anchor="middle" font-weight="bold">Tera teeyaga raada | తెర తీయగ రాద</text>
     
     <!-- English Content -->
     <text x="300" y="255" font-family="Georgia, serif" font-size="14" fill="#e6d5ac" text-anchor="start">
@@ -399,8 +412,8 @@
     
     <!-- Close button -->
     <g id="close-btn-tera-teeyaka" style="cursor:pointer" pointer-events="auto">
-      <circle cx="1110" cy="190" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
-      <text x="1110" y="198" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
+      <circle cx="1120" cy="165" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
+      <text x="1120" y="173" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
     </g>
   </g>
   <g id="guruleka-panel" opacity="0" pointer-events="none">
@@ -436,8 +449,8 @@
     
     <!-- Close button -->
     <g id="close-btn-guruleka" style="cursor:pointer" pointer-events="auto">
-      <circle cx="1110" cy="190" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
-      <text x="1110" y="198" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
+      <circle cx="1120" cy="165" r="20" fill="#4a2c6d" stroke="url(#gold)" stroke-width="2"/>
+      <text x="1120" y="173" font-family="Arial, sans-serif" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="bold">×</text>
     </g>
   </g>
   
@@ -457,24 +470,18 @@
       const ramaPanel = document.getElementById('rama-panel');
       const closeBtnRama = document.getElementById('close-btn-rama');
       
+      // Panel configuration
+      const panels = [
+        { node: devotionNode, panel: devotionPanel, closeBtn: closeBtn },
+        { node: expressionNode, panel: expressionPanel, closeBtn: closeBtnExpression },
+        { node: ramaNode, panel: ramaPanel, closeBtn: closeBtnRama }
+      ];
+      
       // Devotion panel handlers
       devotionNode.addEventListener('click', function(e) {
         e.preventDefault();
         devotionPanel.setAttribute('opacity', '1');
         devotionPanel.setAttribute('pointer-events', 'all');
-      });
-      
-      closeBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        devotionPanel.setAttribute('opacity', '0');
-        devotionPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      devotionPanel.addEventListener('click', function(e) {
-        if (e.target === devotionPanel.firstElementChild) {
-          devotionPanel.setAttribute('opacity', '0');
-          devotionPanel.setAttribute('pointer-events', 'none');
-        }
       });
       
       // Expression panel handlers
@@ -484,37 +491,11 @@
         expressionPanel.setAttribute('pointer-events', 'all');
       });
       
-      closeBtnExpression.addEventListener('click', function(e) {
-        e.stopPropagation();
-        expressionPanel.setAttribute('opacity', '0');
-        expressionPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      expressionPanel.addEventListener('click', function(e) {
-        if (e.target === expressionPanel.firstElementChild) {
-          expressionPanel.setAttribute('opacity', '0');
-          expressionPanel.setAttribute('pointer-events', 'none');
-        }
-      });
-      
       // Rama/Tava Dasoham panel handlers
       ramaNode.addEventListener('click', function(e) {
         e.preventDefault();
         ramaPanel.setAttribute('opacity', '1');
         ramaPanel.setAttribute('pointer-events', 'all');
-      });
-      
-      closeBtnRama.addEventListener('click', function(e) {
-        e.stopPropagation();
-        ramaPanel.setAttribute('opacity', '0');
-        ramaPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      ramaPanel.addEventListener('click', function(e) {
-        if (e.target === ramaPanel.firstElementChild) {
-          ramaPanel.setAttribute('opacity', '0');
-          ramaPanel.setAttribute('pointer-events', 'none');
-        }
       });
       
       // Musical Legacy panel handlers
@@ -528,19 +509,6 @@
         musicalLegacyPanel.setAttribute('pointer-events', 'all');
       });
       
-      closeBtnMusicalLegacy.addEventListener('click', function(e) {
-        e.stopPropagation();
-        musicalLegacyPanel.setAttribute('opacity', '0');
-        musicalLegacyPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      musicalLegacyPanel.addEventListener('click', function(e) {
-        if (e.target === musicalLegacyPanel.firstElementChild) {
-          musicalLegacyPanel.setAttribute('opacity', '0');
-          musicalLegacyPanel.setAttribute('pointer-events', 'none');
-        }
-      });
-      
       // Guruleka panel handlers
       const guruLekaNode = document.querySelector('.guruleka-node');
       const guruLekaPanel = document.getElementById('guruleka-panel');
@@ -550,19 +518,6 @@
         e.preventDefault();
         guruLekaPanel.setAttribute('opacity', '1');
         guruLekaPanel.setAttribute('pointer-events', 'all');
-      });
-      
-      closeBtnGuruLeka.addEventListener('click', function(e) {
-        e.stopPropagation();
-        guruLekaPanel.setAttribute('opacity', '0');
-        guruLekaPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      guruLekaPanel.addEventListener('click', function(e) {
-        if (e.target === guruLekaPanel.firstElementChild) {
-          guruLekaPanel.setAttribute('opacity', '0');
-          guruLekaPanel.setAttribute('pointer-events', 'none');
-        }
       });
       
       // Tera teeyaka raada panel handlers
@@ -576,35 +531,6 @@
         teraTeeyakaPanel.setAttribute('pointer-events', 'all');
       });
       
-      closeBtnTeraTeeyaka.addEventListener('click', function(e) {
-        e.stopPropagation();
-        teraTeeyakaPanel.setAttribute('opacity', '0');
-        teraTeeyakaPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      teraTeeyakaPanel.addEventListener('click', function(e) {
-        if (e.target === teraTeeyakaPanel.firstElementChild) {
-          teraTeeyakaPanel.setAttribute('opacity', '0');
-          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
-        }
-      });
-      
-      // Ensure close button always works
-      document.addEventListener('click', function(e) {
-        if (e.target && e.target.closest('#close-btn-tera-teeyaka')) {
-          teraTeeyakaPanel.setAttribute('opacity', '0');
-          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
-        }
-        if (e.target && e.target.closest('#close-btn-guruleka')) {
-          guruLekaPanel.setAttribute('opacity', '0');
-          guruLekaPanel.setAttribute('pointer-events', 'none');
-        }
-        if (e.target && e.target.closest('#close-btn-giripai')) {
-          giriPaiPanel.setAttribute('opacity', '0');
-          giriPaiPanel.setAttribute('pointer-events', 'none');
-        }
-      }, true);
-      
       // Giripai Nelokonna panel handlers
       const giriPaiNode = document.querySelector('.giripai-node');
       const giriPaiPanel = document.getElementById('giripai-panel');
@@ -616,18 +542,160 @@
         giriPaiPanel.setAttribute('pointer-events', 'all');
       });
       
-      closeBtnGiriPai.addEventListener('click', function(e) {
-        e.stopPropagation();
-        giriPaiPanel.setAttribute('opacity', '0');
-        giriPaiPanel.setAttribute('pointer-events', 'none');
-      });
-      
-      giriPaiPanel.addEventListener('click', function(e) {
-        if (e.target === giriPaiPanel.firstElementChild) {
+      // Direct click handlers on each close button
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
           giriPaiPanel.setAttribute('opacity', '0');
           giriPaiPanel.setAttribute('pointer-events', 'none');
-        }
-      });
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnExpression) {
+        closeBtnExpression.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnRama) {
+        closeBtnRama.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnMusicalLegacy) {
+        closeBtnMusicalLegacy.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnTeraTeeyaka) {
+        closeBtnTeraTeeyaka.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnGiriPai) {
+        closeBtnGiriPai.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
+      
+      if (closeBtnGuruLeka) {
+        closeBtnGuruLeka.addEventListener('click', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+          // Close ALL panels
+          devotionPanel.setAttribute('opacity', '0');
+          devotionPanel.setAttribute('pointer-events', 'none');
+          expressionPanel.setAttribute('opacity', '0');
+          expressionPanel.setAttribute('pointer-events', 'none');
+          ramaPanel.setAttribute('opacity', '0');
+          ramaPanel.setAttribute('pointer-events', 'none');
+          musicalLegacyPanel.setAttribute('opacity', '0');
+          musicalLegacyPanel.setAttribute('pointer-events', 'none');
+          giriPaiPanel.setAttribute('opacity', '0');
+          giriPaiPanel.setAttribute('pointer-events', 'none');
+          teraTeeyakaPanel.setAttribute('opacity', '0');
+          teraTeeyakaPanel.setAttribute('pointer-events', 'none');
+          guruLekaPanel.setAttribute('opacity', '0');
+          guruLekaPanel.setAttribute('pointer-events', 'none');
+        }, true);
+      }
     })();
     ]]>
   </script>
