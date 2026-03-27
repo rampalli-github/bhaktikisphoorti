@@ -356,7 +356,7 @@
     
     <!-- Telugu Content -->
     <text x="300" y="350" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="14" fill="#d4af77" text-anchor="start">
-      <tspan x="300" dy="0">అతను మోక్షం చెందడానికి ముందు శ్రీ రాম దర్శనం పొందాడని చెప్పబడుతుంది</tspan>
+      <tspan x="300" dy="0">అతను మోక్షం చెందడానికి ముందు శ్రీ రామ దర్శనం పొందాడని చెప్పబడుతుంది</tspan>
     </text>
     
     <!-- YouTube Link Button -->
@@ -394,7 +394,7 @@
     
     <!-- Telugu Content -->
     <text x="300" y="350" font-family="Noto Sans Telugu, Arial, sans-serif" font-size="14" fill="#d4af77" text-anchor="start">
-      <tspan x="300" dy="0">థ్యాగరాజ స్వామి తిరుపతికి వెళ్ళారు. స్వామి వారికి ఒకానొక కార్యక్రమము కోసం తెర వేసారు. 
+      <tspan x="300" dy="0">త్యాగరాజ స్వామి తిరుపతికి వెళ్ళారు. స్వామి వారికి ఒకానొక కార్యక్రమము కోసం తెర వేసారు. 
       </tspan>
       <tspan x="300" dy="20">ఈ అద్భుతమైన కీర్తన రచించారు</tspan>
     </text>
